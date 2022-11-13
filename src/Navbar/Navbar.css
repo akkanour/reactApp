@@ -1,0 +1,72 @@
+.header{
+    /* background-color: #182782; */
+    /* background: rgb(24,39,130);
+    background: linear-gradient(270deg, rgba(24,39,130,1) 0%, rgba(9,9,121,1) 25%, rgba(255,255,255,1) 100%); */
+  
+    /* background: hsla(205, 16%, 27%, 1);
+  
+  background: linear-gradient(270deg, hsla(205, 16%, 27%, 1) 0%, hsla(0, 0%, 100%, 1) 100%, hsla(331, 58%, 60%, 1) 100%);
+  
+  background: -moz-linear-gradient(270deg, hsla(205, 16%, 27%, 1) 0%, hsla(0, 0%, 100%, 1) 100%, hsla(331, 58%, 60%, 1) 100%);
+  
+  background: -webkit-linear-gradient(270deg, hsla(205, 16%, 27%, 1) 0%, hsla(0, 0%, 100%, 1) 100%, hsla(331, 58%, 60%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3A4750", endColorstr="#FFFFFF", GradientType=1 ); */
+  
+  
+  
+  background: hsla(205, 16%, 27%, 1);
+  
+  background: linear-gradient(270deg, hsla(205, 16%, 27%, 1) 2%, hsla(0, 0%, 100%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
+  
+  background: -moz-linear-gradient(270deg, hsla(205, 16%, 27%, 1) 2%, hsla(0, 0%, 100%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
+  
+  background: -webkit-linear-gradient(270deg, hsla(205, 16%, 27%, 1) 2%, hsla(0, 0%, 100%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3A4750", endColorstr="#FFFFFF", GradientType=1 );
+    height: 111px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  button{
+    background-color: transparent;
+    border: none;
+    justify-content: space-around;
+    width: 100px;
+    justify-content: center;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 15px;
+  }
+  button:hover{
+    background-color: aliceblue;
+  }
+  .menu{
+    width: 600px;;
+  }
+  .logo{
+    width: 300px;
+    /* display: flex; */
+  }
+  .pMenu{
+      margin-top: -4px;
+  }
+  .groupeBtn{
+      margin-top: 24px;
+  }
+  body
+  {    display: contents;
+  }
+.imgLogo1{
+    height: 100px; 
+    padding-left: 80px; 
+    margin-top: -24px;
+}
+.imgLogo2{
+    height: 17px;
+    width: 300px;
+}
