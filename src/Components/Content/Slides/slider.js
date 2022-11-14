@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import "./style.css"
+import "./slider.css"
 // import required modules
 import { Pagination , Autoplay , Navigation } from "swiper";
 

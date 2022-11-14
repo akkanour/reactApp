@@ -7,8 +7,7 @@ function Footer() {
   <div class="container">
   	<div class="row">
       <div class="footer-col">
-        <h4>logo</h4>
-       <img src={process.env.PUBLIC_URL + "../img/LOGO_AGORA_TECHNOLOGY.png" } alt="logo de l'entreprise" class="img"/>
+        <img src={process.env.PUBLIC_URL + "../img/LOGO_AGORA_TECHNOLOGY.png" } alt="logo de l'entreprise" class="img"/>
       </div>
   	 	{/* <div class="footer-col">
   	 		<h4>company</h4>

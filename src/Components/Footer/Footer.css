@@ -34,8 +34,7 @@ background: linear-gradient(0deg, rgba(31,60,136,1) 45%, rgba(255,255,255,1) 100
     background: -webkit-linear-gradient(90deg, hsla(212, 15%, 22%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#303841", endColorstr="#FFFFFF", GradientType=1 );
-	position:relative;
-bottom:0;
+	margin-top: 600px;
 }
 .footer-col{
    width: 25%;
