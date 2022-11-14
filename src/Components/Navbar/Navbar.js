@@ -9,7 +9,6 @@ function Navbar() {
             <div class="logo">
 
             <img src={process.env.PUBLIC_URL + "../img/LOGO_AGORA_TECHNOLOGY.png" } class="imgLogo1" alt="Logo Entreprise"/>
-            <img src={process.env.PUBLIC_URL + "../img/s-c-f.jpg" } alt="logo de l'entreprise" class="imgLogo2"/>
             </div>
             <div class="groupeBtn">
             <button>Acceuil</button>
