@@ -125,5 +125,5 @@ img{
 .imageBack{
 	background-image: url(https://www.artonicweb.com/img/bg6.jpg);
 	background-position: bottom;
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
 }
