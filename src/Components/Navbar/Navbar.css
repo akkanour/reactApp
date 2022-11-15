@@ -14,7 +14,8 @@
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3A4750", endColorstr="#FFFFFF", GradientType=1 ); */
   
   
-  
+  position: fixed;
+  width: 100%;
   background: hsla(205, 16%, 27%, 1);
   
   background: linear-gradient(270deg, hsla(205, 16%, 27%, 1) 2%, hsla(0, 0%, 100%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
@@ -62,8 +63,8 @@
   {    display: contents;
   }
 .imgLogo1{
-    height: 100px; 
-    width: 200px;
+    height: 150px; 
+    width: 250px;
     padding-left: 80px; 
     margin-top: -24px;
 }
