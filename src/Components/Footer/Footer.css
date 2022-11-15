@@ -126,5 +126,5 @@ background: linear-gradient(0deg, rgba(31,60,136,1) 45%, rgba(255,255,255,1) 100
 .imageBack{
 	background-image: url(https://www.artonicweb.com/img/bg6.jpg);
 	background-position: bottom;
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
 }

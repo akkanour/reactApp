@@ -1,7 +1,7 @@
 #app { height: 100% }
 html,
 body {
-  position: relative;
+  /* position: relative; */
   height: 100%;
 }
 
@@ -13,7 +13,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* 
 .test{
+<<<<<<< HEAD
   height: 3000px;
 }
+=======
+  height: 1000px;
+} */
+>>>>>>> 3333cad712ecb0af095c33106caebf8dfada859c
