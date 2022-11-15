@@ -8,7 +8,7 @@ function Navbar() {
         <div class="header ">
             <div class="logo">
 
-            <img src={process.env.PUBLIC_URL + "../img/LOGO_AGORA_TECHNOLOGY.png" } class="imgLogo1" alt="Logo Entreprise"/>
+            <img src={process.env.PUBLIC_URL + "../img/logo-lghoul.png" } class="imgLogo1" alt="Logo Entreprise"/>
             </div>
             <div class="groupeBtn">
             <button>Acceuil</button>
