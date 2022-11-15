@@ -62,13 +62,9 @@
   body
   {    display: contents;
   }
-.imgLogo1{
+.imgNavbar{
     height: 150px; 
     width: 250px;
     padding-left: 80px; 
     margin-top: -24px;
-}
-.imgLogo2{
-    height: 17px;
-    width: 300px;
 }

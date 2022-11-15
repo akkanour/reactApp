@@ -117,10 +117,11 @@ background: linear-gradient(0deg, rgba(31,60,136,1) 45%, rgba(255,255,255,1) 100
     width: 100%;
 }
 }
-img{
+.imgFooter{
 	height: 120px;
 	width: 150px;
 	margin-top: 70px;
+	margin-left: 50px;
 }
 .imageBack{
 	background-image: url(https://www.artonicweb.com/img/bg6.jpg);

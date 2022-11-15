@@ -7,17 +7,9 @@ function Footer() {
   <div class="container">
   	<div class="row">
       <div class="footer-col">
-        <img src={process.env.PUBLIC_URL + "../img/logo-lghoul-.png" } alt="logo de l'entreprise" class="img"/>
+        <img src={process.env.PUBLIC_URL + "../img/LogoFooter.png" } alt="logo de l'entreprise" class="imgFooter"/>
+        <p>Services Consulting Formations</p>
       </div>
-  	 	{/* <div class="footer-col">
-  	 		<h4>company</h4>
-  	 		<ul>
-  	 			<li><a href="#">about us</a></li>
-  	 			<li><a href="#">our services</a></li>
-  	 			<li><a href="#">privacy policy</a></li>
-  	 			<li><a href="#">affiliate program</a></li>
-  	 		</ul>
-  	 	</div>  */}
   	 	<div class="footer-col">
   	 		<h4>Liens utiles</h4>
   	 		<ul>
