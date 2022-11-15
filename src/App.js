@@ -11,12 +11,12 @@ function App() {
   return (
     <div className='App'>
       <Navbar/>
-      {/* <div class="test"> */}
+      
         <Slider/>
         <Slider/>
         <Slider/>
         <Slider/>
-      {/* </div> */}
+      
       <Footer/>
     </div>
   );
