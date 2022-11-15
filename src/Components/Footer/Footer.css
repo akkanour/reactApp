@@ -69,7 +69,7 @@ background: linear-gradient(0deg, rgba(31,60,136,1) 45%, rgba(255,255,255,1) 100
 	background-color: #008cff;
 	height: 2px;
 	box-sizing: border-box;
-	width: 50px;
+	width: 330px;
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
