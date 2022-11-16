@@ -1,0 +1,24 @@
+.content{
+    padding-top: 20px;
+    height: 300px;background-color: bisque;
+}
+.solutionDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 5px;
+}
+/* .separateur{
+    border-right: 1px red solid;
+    width: 200px;
+} */
+.para{
+    /* color: rgb(107, 199, 228); */
+    font-family: 'Times New Roman', Times, serif;
+}

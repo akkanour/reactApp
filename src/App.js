@@ -5,18 +5,15 @@ import "./style.css";
 import Slider  from './Components/Content/Slides/slider';
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
+import Solution from "./Components/Content/Solutions/solution";
 
 
 function App() {
   return (
     <div className='App'>
       <Navbar/>
-      
-        <Slider/>
-        <Slider/>
-        <Slider/>
-        <Slider/>
-      
+      <Slider/>
+      <Solution/>
       <Footer/>
     </div>
   );
