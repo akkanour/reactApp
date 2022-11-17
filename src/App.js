@@ -5,7 +5,7 @@ import Slider  from './Components/Content/Slides/slider';
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Solution from "./Components/Content/Solutions/solution";
-import Valeur from "./Components/Content/Valeurs/valeur";
+import Partenaire from "./Components/Content/Partenaires/partenaire";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <Slider/>
       <Solution/>
-      <Valeur/>
+      <Partenaire/>
       <Footer/>
     </div>
   );

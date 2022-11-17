@@ -47,6 +47,14 @@
 	background: #fdfdfd;
 	border: none;
 }
+.grandDiv{
+	margin-top: 20px;
+}
+.title{
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 .marquee-box:hover div {
 	animation-play-state: running;
 }
