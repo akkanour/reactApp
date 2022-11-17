@@ -2,43 +2,281 @@ import React from 'react'
 function valeur() {
   return (
     
-<section class="slider">
-  <div class="slider__inner container">
-    <div class="slider__sidebar">
-      <div class="slider__head">
-        <div class="slider__title">H3llo D3nver</div>
-        <p class="slider__subtitle">Author: Pieter van de Sande</p>
+    <div className="container py-5">
+  <div className="row my-5">
+    <div className="col-12">
+      <div className="marquee-full-width">
+        <div className="marquee-box">
+          <div className="marquee">
+            <figure>
+              <img
+                src="//knorish.com/assetsnew/images/client-logos/sanjeevkapooracademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Sanjeev kapoor Academy</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/tutionfe-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Tuition Fe by BSE</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/symbiosistbi-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>
+                Symboisis Centre For Entrepreneurship &amp; Innovation
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/srimantha-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Srimantha</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/gurukul-100x-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Gurukul by 100X VC</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/shikshamaitri-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Shikshamaitri</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/edifypath-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Edifypath</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/iesd-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Indian Energy Skill Development by UPES</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/meghnaddesaiacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Meghnad Desai Academy Of Economics</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/beamusician-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Beamusician</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/fundenable-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Fundenable</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/bingeclass-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Binge Marketing by Gopal Krishnan</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/sonalhollandwineacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Sonal holland Wine Academy</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/purple-coach-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Purple Coach</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/sbyacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>SBY Academy</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/diptivartakacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Dipti Vartak</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/champexcel-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Champ Excel</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/mintsrecipes-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Mints Recipes</figcaption>
+            </figure>
+          </div>
+          <div className="marquee">
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/sanjeevkapooracademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Sanjeev kapoor Academy</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/tutionfe-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Tuition Fe by BSE</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/symbiosistbi-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>
+                Symboisis Centre For <br />
+                Entrepreneurship &amp; Innovation
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/srimantha-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Srimantha</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/gurukul-100x-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Gurukul by 100X VC</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/shikshamaitri-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Shikshamaitri</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/edifypath-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Edifypath</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/iesd-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Indian Energy Skill Development by UPES</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/meghnaddesaiacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>
+                Meghnad Desai Academy <br />
+                Of Economics
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/beamusician-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Beamusician</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/fundenable-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Fundenable</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/bingeclass-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Binge Marketing by Gopal Krishnan</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/sonalhollandwineacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Sonal holland Wine Academy</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/purple-coach-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Purple Coach</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/sbyacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>SBY Academy</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/diptivartakacademy-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Dipti Vartak</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/champexcel-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Champ Excel</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://knorish.com/assetsnew/images/client-logos/mintsrecipes-logo-01.jpg"
+                alt="featured creator"
+              />
+              <figcaption>Mints Recipes</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
-      <div class="slider__head">
-        <div class="slider__title">Lurking doubts</div>
-        <p class="slider__subtitle">Author: Dimitar Belchev</p>
-      </div>
-      <div class="slider__head">
-        <div class="slider__title">Geniuses are not born</div>
-        <p class="slider__subtitle">Author: Rahul Bhogal</p>
-      </div>
-      <div class="slider__head">
-        <div class="slider__title">Twilight is coming...</div>
-        <p class="slider__subtitle">Author: Cris DiNoto</p>
-      </div>
-      <div class="slider__head">
-        <div class="slider__title">Sweet dreams</div>
-        <p class="slider__subtitle">Author: Clark Van Der Beken</p>
-      </div>
-    </div>
-    <div class="slider__preview">
-      <div class="slider__preview-item"> </div>
-      <div class="slider__preview-item"> </div>
-      <div class="slider__preview-item"> </div>
-      <div class="slider__preview-item"> </div>
-      <div class="slider__preview-item"> </div>
-    </div>
-    <div class="slider__controls">
-      <button class="slider__controls-btn btn__down btn"><span class="btn__down-arrow"></span></button>
-      <button class="slider__controls-btn btn__up btn"><span class="btn__up-arrow"></span></button>
     </div>
   </div>
-</section>
+</div>
+
   )
 }
 
