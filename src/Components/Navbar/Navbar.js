@@ -4,7 +4,7 @@ import React from 'react'
 import './Navbar.css';
 function Navbar() {
   return (
-    <header>
+    <header class="fixed-top">
         <div class="header ">
             <div class="logo">
 
