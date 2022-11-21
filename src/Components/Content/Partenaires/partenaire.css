@@ -49,6 +49,7 @@
 }
 .grandDiv{
 	margin-top: 20px;
+	overflow: clip;
 }
 .title{
     font-family: cursive;
