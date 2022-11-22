@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 // Import Swiper React components
 // import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,6 +7,7 @@ import React from "react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import Navbar from "../../Navbar/Navbar";
 
 import "./slider.css";
 // import required modules
@@ -13,7 +15,8 @@ import "./slider.css";
 
 function Slider() {
   return (
-    <div class="slideshow">
+    
+    <div class="slideshow"><Navbar/>
       <input
         type="radio"
         id="button-1"
@@ -45,6 +48,7 @@ function Slider() {
                 <h5>Slide 1</h5>
               </div>
               <div>
+              <img src="public/img/slide1.jpg" alt="image Slide 1"/>
                 <p>
                   development was still available and it was necessary to create a permanent facility where any new development could be located.
                   A year and a half later the original project was started with construction of 625 units. These include a school, a restaurant, retail development, a swimming pool, a hospital, a shopping center, and an elementary school building. As construction started and the building was completed, the construction time for the project jumped to 4 years and 1 year, and was officially closed to public view and for public viewing only, according to the City's memorandum dated 21 June 2009 (PDF) to the Register of Historic Places dated 21 January 2009.
@@ -81,6 +85,7 @@ function Slider() {
         </ul>
       </div>
     </div>
+    
   );
 }
 export default Slider;
