@@ -1,5 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 // import '../../public/img/images'
 import './Navbar.css';
 function Navbar() {
@@ -10,15 +11,16 @@ function Navbar() {
 
             <img src={process.env.PUBLIC_URL + "../img/LogoNavbar.png" } class="imgNavbar" alt="Logo Entreprise"/>
             </div>
+           
             <div class="groupeBtn">
-            <button>Acceuil</button>
-            <button>Services</button>
-            <button>Audit & Consulting</button>
-            <button>Formations</button>
-            <button>Services</button>
-            <button>Partenaires</button>
-            <button>Testing center</button>
-            <button>Offres d'emploi</button>
+             <NavLink to="/"><button>Acceuil</button></NavLink>
+             <NavLink to="/service"><button>Services</button></NavLink>
+             <NavLink to="/audit&consulting"><button>Audit & Consulting</button></NavLink>
+             <NavLink to="/formation"><button>Formations</button></NavLink>
+             <NavLink to="/service"><button>Services</button></NavLink>
+             <NavLink to="/partenaire"><button>Partenaires</button></NavLink>
+             <NavLink to="/testing-center"><button>Testing center</button></NavLink>
+             <NavLink to="/offre-emploi"><button>Offres d'emploi</button></NavLink>
             </div>
         </div>
     </header>
