@@ -13,16 +13,10 @@ import Partenaire from "./Components/Content/Partenaires/partenaire";
 function App() {
   return (
     <div className='App'>
-    <Router>
+    
     <Navbar/>
-      <Routes>
-        <Route exact path="/" element={<Slider/>}/>
-        <Route exact path="/solution" element={<Solution/>}/>
-        <Route exact path="/partenaire" element={<Partenaire/>}/>
-        <Route path="*" element={<Slider/>}/>
-      </Routes>
-    </Router>
-    <Navbar/>
+    <Slider/>
+    <Solution/>
     <Footer/>
     </div>
   );
