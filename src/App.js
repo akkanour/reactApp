@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<div><Slider/><Solution/><Partenaire/></div>}/>
         <Route exact path="/solution" element={<Solution/>}/>
-        <Route exact path="/service" element={<Service/>}/>
+        <Route exact path="/service" element={<div><Service/></div>}/>
         <Route exact path="/audit-consulting" element={<Audit_consulting/>}/>
         <Route exact path="/valeur" element={<Valeur/>}/>
         <Route exact path="/partenaire" element={<Partenaire/>}/>
