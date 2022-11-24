@@ -10,7 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import Solution from "./Components/Content/Solutions/solution";
 import Partenaire from "./Components/Content/Partenaires/partenaire";
 import Service from "./Components/Content/ServicesAgora/service";
-import Audit_consulting from "./Components/Content/Audit&Consulting/audit_consulting";
+import Audit_consulting from "./Components/Content/Audit_Consulting/audit_consulting";
 import Valeur from "./Components/Content/Partenaires/partenaire";
 import OffreEmploi from "./Components/Content/OffresEmploi/offreEmploi";
 function App() {
@@ -28,11 +28,7 @@ function App() {
 
       </Routes>
       <Footer/>
-    </Router>
-    
-  
-    
+    </Router>   
   );
 }
-
 export default App;
