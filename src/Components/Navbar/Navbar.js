@@ -17,7 +17,6 @@ function Navbar() {
              <NavLink to="/service"><button>Services</button></NavLink>
              <NavLink to="/audit&consulting"><button>Audit & Consulting</button></NavLink>
              <NavLink to="/formation"><button>Formations</button></NavLink>
-             <NavLink to="/service"><button>Services</button></NavLink>
              <NavLink to="/partenaire"><button>Partenaires</button></NavLink>
              <NavLink to="/testing-center"><button>Testing center</button></NavLink>
              <NavLink to="/offre-emploi"><button>Offres d'emploi</button></NavLink>
