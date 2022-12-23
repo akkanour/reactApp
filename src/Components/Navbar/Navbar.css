@@ -1,15 +1,10 @@
 .header{
+  background-image: src='../bg.png';
   width: 100%;
   height: 200px;
-  background: hsla(205, 16%, 27%, 1);
-  
-  background: linear-gradient(270deg, hsla(205, 16%, 27%, 1) 2%, hsla(0, 0%, 100%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
-  
-  background: -moz-linear-gradient(270deg, hsla(205, 16%, 27%, 1) 2%, hsla(0, 0%, 100%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
-  
-  background: -webkit-linear-gradient(270deg, hsla(205, 16%, 27%, 1) 2%, hsla(0, 0%, 100%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
-  
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3A4750", endColorstr="#FFFFFF", GradientType=1 );
+  background: rgb(104,121,128);
+background: linear-gradient(120deg, rgba(104,121,128,1) 21%, rgba(2,71,94,1) 21%);
+  display: contents;
     height: 125px;
     padding-top: 20px;
     padding-left: 20px;
@@ -27,9 +22,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     border-radius: 15px;
+    color: rgb(61, 108, 165);
   }
   button:hover{
-    background-color: aliceblue;
+    background-color: #22577E;
   }
   .menu{
     width: 600px;;

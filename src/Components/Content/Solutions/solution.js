@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Card } from 'react-bootstrap';
 import "./solution.css";
 
 function solution() {
@@ -8,20 +8,30 @@ function solution() {
       <div class="title">
         NOS SOLUTIONS
       </div>
-      <div class="solutionDiv">
-        <div class="separateur">
-          <h3>Solution 1</h3>
-          <p class="para">Description du Solution + MORE</p>
-        </div>
-        <div class="separateur">
-          <h3>Solution 2</h3>
-          <p class="para">Description du Solution + MORE</p>
-        </div>
-        <div>
-          <h3>Solution 3</h3>
-          <p class="para">Description du Solution + MORE</p>
-        </div>
-      </div>
+      <>
+      {[
+        'Primary',
+        'Secondary',
+        'Success',
+      ].map((variant) => (
+        <Card
+          bg={variant.toLowerCase()}
+          key={variant}
+          text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
+          style={{ width: '18rem' }}
+          className="mb-2"
+        >
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>{variant} Card Title </Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      ))}
+    </>
     </div>
   )
 }

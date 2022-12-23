@@ -1,9 +1,10 @@
 .content{
+    display: -webkit-inline-box;
     padding-top: 20px;
     height: 300px;background-color: rgb(26, 88, 204);
 }
 .solutionDiv{
-    display: flex;
+    display: -webkit-inline-box;
     justify-content: space-evenly;
 }
 .title{

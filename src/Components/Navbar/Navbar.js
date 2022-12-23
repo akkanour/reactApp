@@ -1,7 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-// import '../../public/img/images'
 import './Navbar.css';
 function Navbar() {
   return (
@@ -10,8 +9,7 @@ function Navbar() {
             <div class="logo">
 
             <img src={process.env.PUBLIC_URL + "../img/LogoNavbar.png" } class="imgNavbar" alt="Logo Entreprise"/>
-            </div>
-           
+            </div>           
             <div class="groupeBtn">
              <NavLink to="/"><button>Acceuil</button></NavLink>
              <NavLink to="/service"><button>Services</button></NavLink>
