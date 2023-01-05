@@ -1,12 +1,14 @@
 .contentt{
   margin-top: 125px;
   height: 620px;
-  background-color: rgb(26, 88, 204);
+  /* background-color: rgb(26, 88, 204); */
 }
 .solutionDivv{
+  border: 2px black solid;
   display: flex;
   height: 180px;
   justify-content: space-evenly;
+  margin-bottom: 5px;
 }
 .title{
   font-family: cursive;

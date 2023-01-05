@@ -39,7 +39,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: #000000;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -50,7 +50,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #008cff;
+	background-color: #888888;
 	height: 2px;
 	box-sizing: border-box;
 	width: 330px;
@@ -61,15 +61,15 @@ ul{
 .footer-col ul li a, p{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	font-weight: 300;
-	color: #ffffff;
+	color: #000000;
 	display: block;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: #000000;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -81,11 +81,11 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: #000000;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #ffffff;
+	color: #000000;
 	background-color: #ffffff;
 }
 
@@ -108,7 +108,11 @@ ul{
 	margin-left: -32px;
 }
 .imageBack{
-	background-image: url(https://www.artonicweb.com/img/bg6.jpg);
+	background-color: #F0F0F0;
 	background-position: bottom;
+	position: fixed;
+	bottom: 0;
+  	left: 0;
+  	right: 0;
 
 }
