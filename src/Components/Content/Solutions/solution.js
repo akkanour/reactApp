@@ -19,7 +19,7 @@ function solution() {
           key={variant}
           text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
           style={{ width: '18rem' }}
-          className="mb-2"
+          className="mb-6"
         >
           <Card.Header>Header</Card.Header>
           <Card.Body>

@@ -3,7 +3,7 @@ import React from 'react'
 import './Footer.css'
 function Footer() {
   return (
-   <footer class="footer" className='imageBack'>
+   <footer class="footer">
   <div class="container">
   	<div class="row">
       <div class="footer-col">

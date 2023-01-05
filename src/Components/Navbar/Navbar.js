@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 function Navbar() {
   return (
-    <header class="fixed-top">
+    <header>
         <div class="header ">
             <div class="logo">
 
