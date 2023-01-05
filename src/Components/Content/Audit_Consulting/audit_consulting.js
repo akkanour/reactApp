@@ -23,7 +23,7 @@ function audit_consulting() {
     </div>
   </div>
 </div>
-<div class="card text-white bg-secondary mb-9 test" >
+<div class="card text-white bg-secondary mb-9" >
   <div class="card-header">Header</div>
   <div class="card-body">
     <h5 class="card-title">Secondary card title</h5>

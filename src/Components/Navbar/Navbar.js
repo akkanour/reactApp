@@ -7,7 +7,6 @@ function Navbar() {
     <header>
         <div class="header ">
             <div class="logo">
-
             <img src={process.env.PUBLIC_URL + "../img/LogoNavbar.png" } class="imgNavbar" alt="Logo Entreprise"/>
             </div>           
             <div class="groupeBtn">
