@@ -1,0 +1,9 @@
+p {
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    margin-bottom: 2em;
+  }
+.test{
+    width: min-content;
+}
