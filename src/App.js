@@ -13,6 +13,7 @@ import Service from "./Components/Content/ServicesAgora/service";
 import Audit_consulting from "./Components/Content/Audit_Consulting/audit_consulting";
 import Valeur from "./Components/Content/Partenaires/partenaire";
 import OffreEmploi from "./Components/Content/OffresEmploi/offreEmploi";
+import TestingCenter from "./Components/Content/TestingCenter/testingCenter";
 function App() {
   return (
     <Router>
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/audit_consulting" element={<Audit_consulting/>}/>
         <Route exact path="/valeur" element={<Valeur/>}/>
         <Route exact path="/partenaire" element={<Partenaire/>}/>
+        <Route exact path="/testing-center" element={<TestingCenter/>}/>
         <Route exact path="/offre-emploi" element={<OffreEmploi/>}/>
 
       </Routes>

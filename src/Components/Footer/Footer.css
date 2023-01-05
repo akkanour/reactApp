@@ -28,7 +28,7 @@ ul{
     padding-bottom: 6.25rem;
     background-position: center bottom;
     overflow: hidden;
-	position: relative;
+	position: inherit;
 	bottom: 0;
   	left: 0;
   	right: 0;
