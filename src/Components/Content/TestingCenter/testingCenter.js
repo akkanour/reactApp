@@ -3,6 +3,7 @@ import './testingCenter.css';
 
 function testingCenter() {
   return (
+    <div></div>
   )
 }
 
