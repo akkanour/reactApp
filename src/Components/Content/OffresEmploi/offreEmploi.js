@@ -1,8 +1,9 @@
 import React from "react";
+import './offreEmploi.css';
 
 function offreEmploi() {
   return (
-    <div class="card">
+    <div class="card cardP">
       <div class="card-body">
         <h5 class="card-title">Offre Emploi</h5>
         <p class="card-text">Aucune offre n'est disponible pour l'instant.</p>
