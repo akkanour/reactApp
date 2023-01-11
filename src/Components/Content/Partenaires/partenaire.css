@@ -24,6 +24,8 @@
 	animation-play-state: running;
 	animation-delay: 0s;
 	animation-direction: normal;
+	
+	
 }
 .marquee figure {
 	margin-right: 3rem;
