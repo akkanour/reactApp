@@ -26,11 +26,13 @@ function valeur() {
           </div>
         </div>
       </div>
-      NOS PRODUITS 
+      <div class="title">
+        NOS PRODUITS
+      </div>
       <div class="container py-5">
           <div class="row my-5">
             <div class="col-12">
-              <div class="marquee">
+              <div class="marquee-full-width">
                 <div class="marquee-box">
                   <div class="marquee">
                   

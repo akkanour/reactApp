@@ -54,7 +54,8 @@
 	overflow: clip;
 }
 .title{
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -71,8 +72,4 @@
 	100% {
 		transform: translateX(-100%);
 	}
-}
-
-img{
-	height: 100px;
 }
