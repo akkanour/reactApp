@@ -8,7 +8,7 @@ function Footer() {
   	<div class="row">
       <div class="footer-col">
         <img src={process.env.PUBLIC_URL + "../img/LogoFooter.png" } alt="logo de l'entreprise" class="imgFooter"/>
-        <p>Services Consulting Formations</p>
+        <div class="bc">Services Consulting Formations</div>
       </div>
   	 	<div class="footer-col">
   	 		<h4>Liens utiles</h4>
