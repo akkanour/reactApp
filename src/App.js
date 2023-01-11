@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route exact path="/" element={<div><Slider/><Solution/><Audit_consulting/><Partenaire/></div>}/>
+        <Route exact path="/" element={<div><Slider/><Partenaire/></div>}/>
         <Route exact path="/solution" element={<Solution/>}/>
         <Route exact path="/service" element={<Service/>}/>
         <Route exact path="/audit_consulting" element={<Audit_consulting/>}/>
