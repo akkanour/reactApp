@@ -7,7 +7,6 @@ import "./style.css";
 import Slider  from './Components/Content/Slides/slider';
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
-import Solution from "./Components/Content/Solutions/solution";
 import Partenaire from "./Components/Content/Partenaires/partenaire";
 import Service from "./Components/Content/ServicesAgora/service";
 import Audit_consulting from "./Components/Content/Audit_Consulting/audit_consulting";
@@ -20,7 +19,6 @@ function App() {
       <Navbar/>
       <Routes>
         <Route exact path="/" element={<div><Slider/><Partenaire/></div>}/>
-        <Route exact path="/solution" element={<Solution/>}/>
         <Route exact path="/service" element={<Service/>}/>
         <Route exact path="/audit_consulting" element={<Audit_consulting/>}/>
         <Route exact path="/valeur" element={<Valeur/>}/>

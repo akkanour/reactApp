@@ -12,7 +12,6 @@ function Navbar() {
             <div class="groupeBtn">
              <NavLink to="/"><button>Acceuil</button></NavLink>
              <NavLink to="/service"><button>Services</button></NavLink>
-             <NavLink to="/solution"><button>Solutions</button></NavLink>
              <NavLink to="/audit_consulting"><button>Audit & Consulting</button></NavLink>
              <NavLink to="/formation"><button>Formations</button></NavLink>
              <NavLink to="/partenaire"><button>Partenaires</button></NavLink>
