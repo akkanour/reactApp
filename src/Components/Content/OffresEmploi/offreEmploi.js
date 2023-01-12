@@ -5,7 +5,7 @@ function offreEmploi() {
   return (
     <div class="card cardP">
       <div class="card-body">
-        <h5 class="card-title">Offre Emploi</h5>
+        <h5 class="card-title"><img class="symbol" src={process.env.PUBLIC_URL + "../img/offre.jpg"} alt="Offres Emploi"/></h5>
         <p class="card-text">Aucune offre n'est disponible pour l'instant.</p>
         <p class="card-text">
           Si l'une des offres suivantes correspond à votre profile, merci de

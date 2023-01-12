@@ -7,6 +7,8 @@ function service() {
       <div>
         Du fait qu'aujourd'hui l'informatique est devenue le moteur de communication dans votre entreprise, <b>AGORA TECHNOLOGY</b> a mis à vos services des consultants prêt à intervenir et à vous accompagner afin de résoudre les problèmes liés aux services suivants
       </div>
+      <h1>Nous Offrons une Large
+      Variété de Services Informatiques</h1>
     <div class="title">
       NOS SERVICES
     </div>
