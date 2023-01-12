@@ -25,9 +25,12 @@ p {
 }
 .maImg{
   height: 500px;
+  padding-top: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .D{
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .divPlus{
   margin-left: 180px;

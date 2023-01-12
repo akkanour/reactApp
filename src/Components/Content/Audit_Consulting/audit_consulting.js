@@ -8,7 +8,7 @@ function audit_consulting() {
       <div class="maDiv">
         <img
           class="maImg"
-          src={process.env.PUBLIC_URL + "../PartenaireProduit/auditImg.jpg"}
+          src={process.env.PUBLIC_URL + "../PartenaireProduit/audit.jpg"}
           alt="audit"
         />
         <div class="D">
