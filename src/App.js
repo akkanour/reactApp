@@ -13,6 +13,7 @@ import Audit_consulting from "./Components/Content/Audit_Consulting/audit_consul
 import Valeur from "./Components/Content/Partenaires/partenaire";
 import OffreEmploi from "./Components/Content/OffresEmploi/offreEmploi";
 import TestingCenter from "./Components/Content/TestingCenter/testingCenter";
+import Formation from "./Components/Content/formation/formation";
 function App() {
   return (
     <Router>
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/partenaire" element={<Partenaire/>}/>
         <Route exact path="/testing-center" element={<TestingCenter/>}/>
         <Route exact path="/offre-emploi" element={<OffreEmploi/>}/>
+        <Route exact path="/formation" element={<Formation/>}/>
       </Routes>
       <Footer/>
     </Router>   
